@@ -2,13 +2,19 @@
 This is the main file for hello package.
 """
 
-def main():
+def main(lang="en"):
     """This is the main function."""
-    print("Buenos dias")
+    if lang == "en":
+       english()
+    elif lang == "it":
+       italian()
+
     return 0
 
+def english():
+    """This is the english version."""
+    print("Buenos dias")
 
-def italian_main():
+def italian():
     """This is the italian version."""
     print("Buona sera!")
-    return 0
