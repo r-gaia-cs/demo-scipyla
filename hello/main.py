@@ -11,10 +11,14 @@ def main(lang="en"):
 
     return 0
 
-def english():
+def spanish():
     """This is the english version."""
     print("Buenos dias")
 
 def italian():
     """This is the italian version."""
     print("Buona sera!")
+
+def english():
+    """This is the english version."""
+    print("Hello!")
