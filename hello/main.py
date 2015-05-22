@@ -28,3 +28,9 @@ def english():
 def portuguese():
     """This is the portuguese version."""
     print("Bom dia!")
+
+
+def german():
+    """This is the german version."""
+    print("Guten Tag!")
+    
